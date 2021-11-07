@@ -4,10 +4,6 @@
 
 @import "styles/nav-bar.css";
 
-@import "styles/home/home.css";
-@import "styles/home/home-banner.css";
-@import "styles/home/home-category.css";
-
 body {
     display: block;
     margin: 0;

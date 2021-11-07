@@ -2,3 +2,9 @@
     width: 100px;
     border: 0.1px solid black;
 }
+
+.BorderBottom-left {
+    width: 100px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}

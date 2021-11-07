@@ -7,6 +7,7 @@
 
         <!-- Link -->
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles/home/home.css">
         <link rel="icon" type="image/png" href="assets/png/favicon.png">
     </head>
     <body>
@@ -23,55 +24,9 @@
                 </div>
             </section>
 
-            <section class="HomeCategory Flex JustifyContent-center MarginTop-2xlarge">
-                <div class="HomeCategory-content Padding Flex Flex-column JustifyContent-center">
-                       <div class="Montserrat-light Font-18 TextAlign-center"> CATEGORY </div>
-                       <div class="Montserrat-bold  Font-24 TextAlign-center"> Ideal For You </div>
-                       <hr class="BorderBottom" />
-
-                       <div class="MarginBottom Flex JustifyContent-between MarginTop-xlarge">
-                            <div class="HomeCategory-box Padding">
-                                <div class="HomeCategory-boxTitle Montserrat-bold">
-                                    Hospitality
-                                    <hr class="BorderBottom" />
-                                </div>
-                            </div>
-                            <div class="HomeCategory-box">
-                                <div class="HomeCategory-boxTitle Montserrat-bold">
-                                    Hospitality
-                                    <hr class="BorderBottom" />
-                                </div>
-                            </div>
-                            <div class="HomeCategory-box">
-                                <div class="HomeCategory-boxTitle Montserrat-bold">
-                                    Hospitality
-                                    <hr class="BorderBottom" />
-                                </div>
-                            </div>
-                            <div class="HomeCategory-box">
-                                <div class="HomeCategory-boxTitle Montserrat-bold">
-                                    Hospitality
-                                    <hr class="BorderBottom" />
-                                </div>
-                            </div>
-                       </div>
-                </div>
-            </section>
-
-            <section class="HomeCategory Flex JustifyContent-center MarginTop-2xlarge">
-                <div class="HomeCategory-content Padding Flex Flex-column JustifyContent-center">
-                       <div class="Montserrat-light Font-18 TextAlign-center"> CATEGORY </div>
-                       <div class="Montserrat-bold  Font-24 TextAlign-center"> Ideal For You </div>
-                       <hr class="BorderBottom" />
-
-                       <div class="MarginBottom Flex JustifyContent-between MarginTop-xlarge">
-                            <div class="HomeCategory-box">a</div>
-                            <div class="HomeCategory-box">b</div>
-                            <div class="HomeCategory-box">c</div>
-                            <div class="HomeCategory-box">d</div>
-                       </div>
-                </div>
-            </section>
+            <x-home-category></x-home-category>
+            <x-home-journey></x-home-journey>
+            
         </section>
     </body>
 </html>
