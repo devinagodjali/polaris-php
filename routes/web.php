@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/about', function () {
@@ -26,5 +26,9 @@ Route::get('/service', function () {
 });
 
 Route::get('/contact', function () {
-    return 'Contact';
+    return view('contact');
+});
+
+Route::get('/product', function () {
+    return view('product');
 });

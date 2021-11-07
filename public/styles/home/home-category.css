@@ -1,0 +1,14 @@
+.HomeCategory {
+}
+
+.HomeCategory-content {
+    background-color: white;
+    width: 80vw;
+}
+
+.HomeCategory-box {
+    width: calc(20vw - 15px);
+    height: 20vh;
+
+    background-color: #e9e9e7;
+}

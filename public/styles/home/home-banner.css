@@ -1,0 +1,37 @@
+.HomeBanner {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.HomeBanner-placeholder {
+    width: 100vw;
+    height: auto;
+}
+
+.HomeBanner-text {
+    position: absolute;
+
+    width: 400px;
+    height: auto;
+
+    margin-left: 28vw;
+    z-index: 100000;
+}
+
+.HomeBanner-text--title {
+    border-bottom: 5px solid black;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.HomeBanner-text--subTitle {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}

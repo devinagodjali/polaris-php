@@ -1,0 +1,20 @@
+.Flex {
+    display: flex;
+}
+
+.Flex-column {
+    flex-direction: column;
+}
+
+.JustifyContent-center {
+    justify-content: center;
+}
+
+.JustifyContent-between {
+    justify-content: space-between;
+}
+
+/* Align */
+.TextAlign-center {
+    text-align: center;
+}

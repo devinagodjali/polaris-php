@@ -1,0 +1,37 @@
+.NavBar {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 96px;
+
+    position: sticky;
+    display: flex;
+    align-items: center;
+
+    top: 0;
+    left: 0;
+
+    background-color: white;
+    color: gray;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+
+    box-sizing: border-box;
+}
+
+.Logo {
+    width: auto;
+    height: 80px;
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: #8d8d8d;
+    font-weight: bold;
+}
+
+a:hover:not(:first-child) {
+    color: black;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,60 @@
+@import "styles/font.css";
+@import "styles/flex.css";
+@import "styles/border.css";
+
+@import "styles/nav-bar.css";
+
+@import "styles/home/home.css";
+@import "styles/home/home-banner.css";
+@import "styles/home/home-category.css";
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+.PageWithNavBar {
+    position: relative;
+    top: 96px;
+}
+
+/* Margin */
+.Margin {
+    margin: 15px;
+}
+
+.MarginRight {
+    margin-right: 15px;
+}
+
+.MarginTop {
+    margin-top: 15px;
+}
+
+.MarginTop-large {
+    margin-top: 25px;
+}
+
+.MarginTop-xlarge {
+    margin-top: 30px;
+}
+
+.MarginTop-2xlarge {
+    margin-top: 45px;
+}
+
+.MarginBottom {
+    margin-bottom: 15px;
+}
+
+/* Padding */
+.Padding {
+    padding: 15px;
+}
+
+.PaddingRight {
+    padding-right: 15px;
+}
