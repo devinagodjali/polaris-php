@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap");
 
 /* Font Weight */
 .Montserrat-light {
@@ -6,13 +6,41 @@
     font-weight: 300;
 }
 
+.Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.Montserrat-medium {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
 .Montserrat-bold {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 
+.Roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.Roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
 /* Font Size */
 .FontDefault {
+    font-size: 16px;
+}
+
+.Font-14 {
+    font-size: 14px;
+}
+
+.Font-16 {
     font-size: 16px;
 }
 
@@ -22,4 +50,8 @@
 
 .Font-24 {
     font-size: 24px;
+}
+
+.Font-54 {
+    font-size: 54px;
 }

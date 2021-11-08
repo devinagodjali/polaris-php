@@ -1,8 +1,10 @@
 @import "styles/font.css";
 @import "styles/flex.css";
 @import "styles/border.css";
+@import "styles/color.css";
 
 @import "styles/nav-bar.css";
+@import "styles/footer.css";
 
 body {
     display: block;
@@ -26,6 +28,14 @@ body {
     margin-right: 15px;
 }
 
+.MarginRight-2xlarge {
+    margin-right: 45px;
+}
+
+.MarginTop-xsmall {
+    margin-top: 5px;
+}
+
 .MarginTop {
     margin-top: 15px;
 }
@@ -46,6 +56,25 @@ body {
     margin-bottom: 15px;
 }
 
+.MarginBottom-large {
+    margin-bottom: 25px;
+}
+
+.MarginBottom-xlarge {
+    margin-bottom: 30px;
+}
+
+.MarginBottom-2xlarge {
+    margin-bottom: 45px;
+}
+
+.MarginLeft {
+    margin-left: 15px;
+}
+
+.MarginLeft-2xlarge {
+    margin-left: 30px;
+}
 /* Padding */
 .Padding {
     padding: 15px;
@@ -53,4 +82,17 @@ body {
 
 .PaddingRight {
     padding-right: 15px;
+}
+
+.BorderBox {
+    box-sizing: border-box;
+}
+
+.Cursor-pointer {
+    cursor: pointer;
+}
+
+.NoDecoration {
+    text-decoration: none;
+    color: black;
 }

@@ -24,9 +24,14 @@
                 </div>
             </section>
 
-            <x-home-category></x-home-category>
-            <x-home-journey></x-home-journey>
-            
+            <section class="Flex Flex-column JustifyContent-center">
+                <x-home-category></x-home-category>
+                <x-home-journey></x-home-journey>
+                <x-home-choose-polaris></x-home-choose-polaris>
+                <x-home-service></x-home-service>
+            </section>
+
+            <x-footer></x-footer>
         </section>
     </body>
 </html>

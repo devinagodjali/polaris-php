@@ -1,0 +1,49 @@
+.HomeChoose {
+    width: 90vw;
+    background-color: white;
+}
+
+.HomeChoose-image {
+    width: 27vw;
+    height: 40vh;
+
+    background-color: tomato;
+}
+
+.Width {
+    width: 100%;
+}
+
+.Image {
+    width: 43vw;
+    min-height: 390px;
+}
+
+img.Service {
+    width: 100%;
+    height: auto;
+}
+
+img.Choose {
+    width: inherit;
+    height: inherit;
+}
+
+.WidthService {
+    width: 43vw;
+}
+
+.WidthService > img {
+    width: 22px;
+    height: 22px;
+}
+
+.Position {
+    position: relative;
+}
+
+.Group {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

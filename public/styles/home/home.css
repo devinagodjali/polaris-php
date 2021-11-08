@@ -1,8 +1,10 @@
 @import "./home-banner.css";
 @import "./home-category.css";
 @import "./home-journey.css";
+@import "./home-choose-polaris.css";
 
 .HomePage {
     min-height: calc(100vh - 96px);
     background-color: #e9e9e7;
+    width: 100vw;
 }

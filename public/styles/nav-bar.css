@@ -25,13 +25,13 @@
     margin-right: 3vw;
 }
 
-a {
+a.NavBars {
     text-decoration: none;
     color: #8d8d8d;
     font-weight: bold;
 }
 
-a:hover:not(:first-child) {
+a.NavBars:hover {
     color: black;
     border-bottom: 2px solid black;
 }

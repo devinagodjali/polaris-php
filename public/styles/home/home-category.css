@@ -1,10 +1,10 @@
 .HomeCategory-content {
     background-color: white;
-    width: 80vw;
+    width: 90vw;
 }
 
 .HomeCategory-box {
-    width: calc(20vw - 15px);
+    width: calc(22vw - 15px);
     height: 20vh;
 
     background-color: #e9e9e7;
@@ -12,6 +12,9 @@
 
     padding-top: 15px;
     padding-left: 15px;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .HomeCategory-boxTitle {
@@ -20,4 +23,10 @@
 
     padding-bottom: 20px;
     border-bottom: 2px solid black;
+}
+
+.HomeCategory-image > img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }

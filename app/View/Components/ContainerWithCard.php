@@ -6,21 +6,17 @@ use Illuminate\View\Component;
 
 class ContainerWithCard extends Component
 {
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public $imgSrc;
+    public $imgContent;
+    public $imgTitle;
+
+    public function __construct($imgSrc, $imgContent, $imgTitle)
     {
-        //
+        $this->imgSrc = $imgSrc;
+        $this->imgTitle = $imgTitle;
+        $this->imgContent = $imgContent;
     }
 
-    /**
-     * Get the view / contents that represent the component.
-     *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
-     */
     public function render()
     {
         return view('components.container-with-card');

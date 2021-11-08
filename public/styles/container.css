@@ -1,0 +1,32 @@
+.ContainerImage {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+img.Img {
+    width: 100%;
+}
+
+.Text {
+    position: absolute;
+
+    top: 12vh;
+    left: 10vw;
+
+    width: 30vw;
+    height: auto;
+
+    background-color: white;
+    z-index: 10000;
+
+    padding: 40px;
+}
+
+.LineHeight {
+    line-height: 2;
+}
+
+.LineHeight1 {
+    line-height: 1.5;
+}
