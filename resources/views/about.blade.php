@@ -5,10 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Polaris | About</title>
 
-        <!-- Fonts -->
+        <link rel="icon" type="image/png" href="assets/png/favicon.png">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/container.css">
+        <link rel="stylesheet" href="styles/about.css">
         @livewireStyles
     </head>
     <body class="BgColor-gray">
@@ -20,15 +21,25 @@
                 ["title" => "WHO WE ARE",
                     "text" => 
                     "Polaris Furniture merupakan perusahaan manufaktur furnitur yang telah memiliki pengalaman lebih dari 20 tahun. Kami terus berinovasi agar produk kami semakin berkembang dan kami juga mengedepankan kepuasan pelanggan serta menjaga kepercayaan mitra bisnis kami.
-                    <p> Mulai dari sektor umah tangga, kantor, restoran, institusi dan tempat lainnya. </p>"
+                    <p> Mulai dari sektor umah tangga, kantor, restoran, institusi dan tempat lainnya. </p>",
+                    "image" => "/assets/png/about1.png",
                 ], 
                 ["title" => "VISION & MISSION",
                     "text" =>
-                    "Our vision is to be the global market leader in Furniture Industry. With our mission to supply the market demand and giving the best experience for our customers."
+                    "Our vision is to be the global market leader in Furniture Industry. With our mission to supply the market demand and giving the best experience for our customers.",
+                    "image" => "/assets/png/about2.png",
                 ], 
                 ["title" => "OUR LOCATION",
                     "text" =>
-                    "Headquarter Office: Jl. Citra Raya No 2e, Jakarta Barat."
+                    "Headquarter Office: Jl. Citra Raya No 2e, Jakarta Barat.",
+                    "image" => "",
+                    "map" => " <iframe
+                                    src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.037255520034!2d106.71097691539597!3d-6.125688961771325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a02b08b72cd89%3A0x47a67f3dde6406e4!2sJl.%20Raya%20Citra%20No.2%2C%20RT.3%2FRW.5%2C%20Tegal%20Alur%2C%20Kec.%20Kalideres%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011820!5e0!3m2!1sen!2sid!4v1631416251670!5m2!1sen!2sid'
+                                    style='border: 0; min-width: 473px; width: 700px; height: 380px;'
+                                    allowFullScreen='false'
+                                    loading='lazy'
+                                    title='Google Map'
+                                ></iframe>",
                 ],
             ];
         @endphp
@@ -45,9 +56,14 @@
             <livewire:container-with-tabs :containerTitle="$title" :tabsTitle="$tabsTitle" :content="$content">
             </livewire:container-with-tabs>
         </div>
-        <section class="PageWithNavBar">
-            "about"
-        </section>
+        <div class="Flex JustifyContent-center AlignItems-center MarginTop-2xlarge">
+            <div class="MapContainer">
+                <div class="Font-24 Montserrat-bold">Across The Nation</div>
+                <div class="Font-16 Roboto MarginTop">Polaris Furniture have made to all across Indonesia.</div>
+                <img class="MapImage MarginTop-xlarge" src="/assets/png/indonesia-map.png" alt="Peta"> 
+            </div>
+        </div>
+        <x-footer></x-footer>
 
         @livewireScripts
     </body>

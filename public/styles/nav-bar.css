@@ -15,6 +15,7 @@
     box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
 
     box-sizing: border-box;
+    z-index: 10000000;
 }
 
 .Logo {

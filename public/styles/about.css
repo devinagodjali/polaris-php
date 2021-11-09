@@ -1,0 +1,13 @@
+.MapContainer {
+    width: 70vw;
+    background-color: white;
+    box-sizing: border-box;
+
+    padding: 50px;
+}
+
+.MapImage {
+    width: 100%;
+    height: auto;
+    transform: scale(1.1);
+}
