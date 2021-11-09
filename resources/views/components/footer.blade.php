@@ -4,10 +4,14 @@
             Let’s Stay Connected
         </div>
         <div class="FooterIcon MarginRight">
-
+            <a class="NoDecoration" href="https://www.instagram.com/polarisfurnitureindonesia" target="_blank" rel="noopener noreferrer">
+                <img class="FooterIconInstagram" src="/assets/png/icon-instagram.png" alt="icon instagram">
+            </a> 
         </div>
         <div class="FooterIcon MarginRight">
-
+            <a class="NoDecoration" href="https://www.facebook.com/polarisfurniture/" target="_blank" rel="noopener noreferrer">
+                <img class="FooterIconFacebook" src="/assets/png/icon-facebook.png" alt="icon facebook">
+            </a>
         </div>
     </div>
 </section>

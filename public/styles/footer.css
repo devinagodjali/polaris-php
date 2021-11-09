@@ -12,6 +12,20 @@
     background-color: #e9e9e7;
 }
 
+.FooterIconInstagram {
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    left: 12px;
+}
+
+.FooterIconFacebook {
+    position: absolute;
+    margin: 0;
+    top: 5px;
+    left: 6px;
+}
+
 .Footer2 {
     width: 40vw;
     height: 100px;

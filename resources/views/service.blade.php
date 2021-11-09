@@ -25,13 +25,13 @@
                             MANUFACTURE",
                     "text" => 
                     "Do you have your dream chair? Or dream table? We can make your dream chair or dream table or any furniture come true. We can make your design come true.",
-                    "image" => "/assets/png/about1.png",
+                    "image" => "/assets/png/oem.png",
                 ], 
                 ["title" => "INTERIOR <br/>
                             DESIGN",
                     "text" =>
                     "Need to redecor your room? Or for your business? We provide you the best interior solutions for you. From design to execution, deliver all just in time with the best quality.",
-                    "image" => "/assets/png/about2.png",
+                    "image" => "/assets/png/interior.png",
                 ],
             ];
         @endphp
