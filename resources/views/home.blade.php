@@ -11,7 +11,7 @@
         <link rel="icon" type="image/png" href="assets/png/favicon.png">
     </head>
     <body>
-        <x-nav-bar></x-nav-bar>
+        <x-nav-bar :menu="''"></x-nav-bar>
 
         <section class="HomePage">
             <section class="HomeBanner">

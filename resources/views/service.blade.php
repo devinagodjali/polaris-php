@@ -17,7 +17,7 @@
             $title ='<div>Have Something in Mind ? <br/> We Can Make It Happen </div>';
         @endphp
 
-        <x-nav-bar></x-nav-bar>
+        <x-nav-bar :menu="'Service'"></x-nav-bar>
         <x-container-with-card 
         :imgSrc="$img" 
         :imgTitle="$title"

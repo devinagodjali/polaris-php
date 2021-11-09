@@ -30,3 +30,56 @@ img.Img {
 .LineHeight1 {
     line-height: 1.5;
 }
+
+.ContainerTab {
+    width: 70vw;
+    height: auto;
+
+    padding: 20px 50px;
+
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.Tabs {
+    width: 100%;
+    height: 64px;
+    margin: auto;
+
+    border: 0.5px solid #aeaeae;
+}
+
+.Tab {
+    width: 33.3%;
+    height: 64px;
+    border: 0.5px solid #aeaeae;
+    line-height: 64px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.TabContent {
+    display: none;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    height: 500px;
+}
+
+.Show {
+    display: inline-flex;
+}
+
+.ActiveTab {
+    color: white;
+    background-color: #aeaeae;
+}
+
+.Width-50 {
+    width: 50%;
+}
+
+.width-60 {
+    width: 60%;
+}

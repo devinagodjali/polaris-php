@@ -35,3 +35,8 @@ a.NavBars:hover {
     color: black;
     border-bottom: 2px solid black;
 }
+
+a.Active {
+    color: black;
+    border-bottom: 2px solid black;
+}

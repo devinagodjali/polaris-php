@@ -96,3 +96,11 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.BgColor-gray {
+    background-color: #e9e9e7;
+}
+
+.Color-gray {
+    color: #aeaeae;
+}
