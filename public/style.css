@@ -107,6 +107,16 @@ body {
     padding-right: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .Padding {
+        padding: 10px;
+    }
+
+    .PaddingRight {
+        padding-right: 10px;
+    }
+}
+
 .BorderBox {
     box-sizing: border-box;
 }

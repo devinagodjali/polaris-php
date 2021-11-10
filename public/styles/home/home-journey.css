@@ -12,7 +12,7 @@
 }
 
 .VerticalBorder {
-    height: 180px;
+    height: 160px;
     border-right: 0.1px solid black;
 }
 
@@ -31,7 +31,7 @@
 .Height-100 {
     height: 100px;
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
 .Padding-r {
@@ -47,4 +47,49 @@
 
     border: 1px solid black;
     box-sizing: border-box;
+}
+
+.FontM {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+    .HomeJourney {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .Padding-r {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .HomeJourney-content {
+        width: 90vw;
+        height: 100px;
+    }
+
+    .Height {
+        height: 100px;
+    }
+
+    .VerticalBorder {
+        height: 80px;
+    }
+
+    .HomeJourney-circle {
+        margin-top: 20px;
+        height: 60px;
+        padding: 10px;
+        width: 90vw;
+    }
+
+    img.Img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .FontM {
+        font-size: 6px;
+    }
 }
