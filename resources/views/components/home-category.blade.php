@@ -4,7 +4,7 @@
            <div class="Montserrat-bold  Font-24 TextAlign-center"> Ideal For You </div>
            <hr class="BorderBottom" />
 
-           <div class="MarginBottom Flex JustifyContent-between MarginTop-xlarge">
+           <div class="Container MarginBottom Flex JustifyContent-between MarginTop-xlarge">
                 <div class="HomeCategory-box MarginLeft">
                     <span class="HomeCategory-boxTitle Montserrat-bold Font-18">
                         Hospitality

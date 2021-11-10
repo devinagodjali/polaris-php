@@ -11,6 +11,7 @@ class NavBar extends Component
     public function __construct($menu)
     {
         $this->menu = $menu ?? '';
+        $this->navBarMenu = ["About", "Service", "Product"];
     }
 
     public function render()

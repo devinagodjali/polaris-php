@@ -30,3 +30,35 @@
     right: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 600px) {
+    .Container {
+        flex-wrap: wrap;
+    }
+
+    .HomeCategory-content {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .HomeCategory-box {
+        width: 45vw;
+        height: 14vh;
+        justify-content: space-between;
+        height: 13vh;
+        margin: 0;
+    }
+
+    .HomeCategory-box:nth-child(1) {
+        margin-bottom: 10px;
+    }
+
+    .HomeCategory-image > img {
+        height: 80%;
+    }
+
+    .HomeCategory-boxTitle {
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+}

@@ -75,6 +75,29 @@ body {
 .MarginLeft-2xlarge {
     margin-left: 30px;
 }
+
+@media screen and (max-width: 600px) {
+    .Margin {
+        margin: 10px;
+    }
+
+    .MarginTop {
+        margin-top: 10px;
+    }
+
+    .MarginTop-xlarge {
+        margin-top: 15px;
+    }
+
+    .MarginTop-2xlarge {
+        margin-top: 20px;
+    }
+
+    .MarginBottom {
+        margin-bottom: 10px;
+    }
+}
+
 /* Padding */
 .Padding {
     padding: 20px;
@@ -103,4 +126,11 @@ body {
 
 .Color-gray {
     color: #aeaeae;
+}
+
+.MaintenanceContainer {
+    width: 90vw;
+    height: 50vh;
+
+    background-color: white;
 }

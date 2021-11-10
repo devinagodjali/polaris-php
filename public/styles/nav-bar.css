@@ -41,3 +41,25 @@ a.Active {
     color: black;
     border-bottom: 2px solid black;
 }
+
+.Desktop {
+    display: inline-flex;
+}
+
+@media screen and (max-width: 600px) {
+    .Desktop {
+        display: none;
+    }
+
+    .NavBar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 40px;
+    }
+
+    .Logo {
+        height: 40px;
+    }
+}
