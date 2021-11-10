@@ -1,6 +1,6 @@
 <section class="Flex JustifyContent-center MarginTop-2xlarge">
     <div class="Footer JustifyContent-center Flex AlignItems-center BorderBox">
-        <div class="Font-24 Montserrat-bold MarginRight">
+        <div class="Font-24 Montserrat-bold MarginRight FontMobile">
             Let’s Stay Connected
         </div>
         <div class="FooterIcon MarginRight">

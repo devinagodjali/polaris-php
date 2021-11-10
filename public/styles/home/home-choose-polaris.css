@@ -47,3 +47,60 @@ img.Choose {
     right: 0;
     top: 0;
 }
+
+.WithRight {
+    width: 43vw;
+    height: auto;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .HomeChoose {
+        width: 100vw;
+    }
+
+    .MobileChoose {
+        padding: 10px;
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    .HomeChoose-image {
+        width: 31vw;
+        height: 15vh;
+
+        background-color: tomato;
+    }
+
+    .FontChoose {
+        width: 31vw;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .Image {
+        width: 100vw;
+        min-height: 100px;
+    }
+
+    .WidthService {
+        width: 100vw;
+    }
+
+    .WidthService > img {
+        width: 11px;
+        height: 11px;
+    }
+
+    .WithRight {
+        width: 100vw;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .FlexDown {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

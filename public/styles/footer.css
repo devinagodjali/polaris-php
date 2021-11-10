@@ -30,3 +30,39 @@
     width: 40vw;
     height: 100px;
 }
+
+@media screen and (max-width: 600px) {
+    .Footer {
+        width: 100vw;
+        height: 50px;
+    }
+
+    .FontMobile {
+        font-size: 12px;
+    }
+
+    .FooterIcon {
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+
+    .FooterIconInstagram {
+        width: 20px;
+        top: 4px;
+        left: 5px;
+        height: auto;
+        margin: auto;
+    }
+
+    .FooterIconFacebook {
+        margin: 0;
+        top: 2px;
+        left: 2px;
+        height: 25px;
+    }
+
+    .Footer2 {
+        height: 40px;
+    }
+}
