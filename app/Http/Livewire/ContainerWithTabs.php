@@ -9,13 +9,15 @@ class ContainerWithTabs extends Component
     public $containerTitle;
     public $tabsTitle;
     public $content;
+    public $menu;
 
-    public function mount($containerTitle, $tabsTitle, $content)
+    public function mount($containerTitle, $tabsTitle, $content, $menu)
     {
         $this->containerTitle = $containerTitle;
         $this->tabsTitle = $tabsTitle;
         $this->con = 0;
         $this->content = $content;
+        $this->menu = $menu;
     }
 
     public function getId($tabIndex)

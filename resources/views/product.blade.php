@@ -9,12 +9,14 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/home/home.css">
         <link rel="icon" type="image/png" href="assets/png/favicon.png">
+        @livewireStyles
     </head>
     <body class="BgColor-gray">
-        <x-nav-bar :menu="'Product'"></x-nav-bar>
+        <livewire:nav-bar :menu="'Product'"></livewire:nav-bar>
         <div class="Flex JustifyContent-center MarginTop-2xlarge">
             <div class="MaintenanceContainer Montserrat-bold Font-54 Flex AlignItems-center JustifyContent-center"> Under Maintenance </div>
         </div>
         <x-footer></x-footer>
+        @livewireScripts
     </body>
 </html>

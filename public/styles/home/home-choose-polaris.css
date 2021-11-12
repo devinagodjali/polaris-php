@@ -15,7 +15,7 @@
 }
 
 .Image {
-    width: 43vw;
+    width: 44vw;
     min-height: 390px;
 }
 
@@ -30,7 +30,7 @@ img.Choose {
 }
 
 .WidthService {
-    width: 43vw;
+    width: 44vw;
 }
 
 .WidthService > img {
@@ -63,6 +63,7 @@ img.Choose {
         padding: 10px;
         padding-bottom: 0;
         margin: 0;
+        margin-top: 10px;
     }
 
     .HomeChoose-image {
@@ -96,6 +97,7 @@ img.Choose {
         width: 100vw;
         height: auto;
         padding: 10px;
+        margin-bottom: 10px;
         box-sizing: border-box;
     }
 

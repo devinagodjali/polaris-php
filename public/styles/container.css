@@ -97,3 +97,74 @@ img.Img {
 .width-60 {
     width: 60%;
 }
+
+.ContainerShow {
+    display: inline-flex;
+}
+
+.ContainerHide {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .Text {
+        position: relative;
+        padding: 20px;
+        width: 100vw;
+
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+
+    .Text > .MarginBottom-large {
+        margin-bottom: 12px;
+    }
+
+    .Text > .Font-16 {
+        font-size: 12px;
+    }
+
+    .Text > .Font-24 {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .ContainerTab {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .ContainerShow {
+        display: none;
+    }
+
+    .ContainerHide {
+        display: block;
+    }
+
+    .TitleMobile {
+        width: 100%;
+        padding: 10px;
+        font-size: 12px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #aeaeae;
+    }
+
+    .TabTitleMobile {
+        padding: 10px;
+        font-size: 12px;
+        border-bottom: 1px solid #aeaeae;
+    }
+
+    .TabTextMobile {
+        padding: 10px;
+        font-size: 10px;
+        line-height: 1.5;
+        border-bottom: 1px solid #aeaeae;
+    }
+
+    .Br > br {
+        display: none;
+    }
+}

@@ -9,9 +9,10 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/home/home.css">
         <link rel="icon" type="image/png" href="assets/png/favicon.png">
+        @livewireStyles
     </head>
     <body>
-        <x-nav-bar :menu="''"></x-nav-bar>
+        <livewire:nav-bar :menu="''"></livewire:nav-bar>
 
         <section class="HomePage">
             <section class="HomeBanner">
@@ -33,5 +34,6 @@
 
             <x-footer></x-footer>
         </section>
+        @livewireScripts
     </body>
 </html>

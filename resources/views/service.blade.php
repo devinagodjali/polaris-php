@@ -36,14 +36,14 @@
             ];
         @endphp
 
-        <x-nav-bar :menu="'Service'"></x-nav-bar>
+        <livewire:nav-bar :menu="'Service'"></livewire:nav-bar>
         <x-container-with-card 
             :imgSrc="$img" 
             :imgTitle="$cardTitle"
             :imgContent="$cardContent">
         </x-container-with-card>
         <div class="Flex JustifyContent-center AlignItems-center MarginTop-2xlarge">
-            <livewire:container-with-tabs :containerTitle="$title" :tabsTitle="$tabsTitle" :content="$content">
+            <livewire:container-with-tabs :containerTitle="$title" :tabsTitle="$tabsTitle" :content="$content" :menu="'service'">
             </livewire:container-with-tabs>
         </div>
         <x-footer></x-footer>

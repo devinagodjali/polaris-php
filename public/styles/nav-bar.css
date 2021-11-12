@@ -19,6 +19,7 @@
 }
 
 .Logo {
+    display: inline-flex;
     width: auto;
     height: 80px;
 
@@ -46,6 +47,10 @@ a.Active {
     display: inline-flex;
 }
 
+.NavMobile {
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
     .Desktop {
         display: none;
@@ -60,6 +65,48 @@ a.Active {
     }
 
     .Logo {
+        display: none;
+    }
+
+    .LogoMobile {
         height: 40px;
+    }
+
+    .NavMobile {
+        display: inline-flex;
+
+        top: 0;
+        left: 0;
+    }
+
+    .BurgerBar {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .NabMobile-open {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+
+        width: 60vw;
+        height: 100vh;
+
+        background-color: white;
+        z-index: 100000;
+
+        box-sizing: border-box;
+    }
+
+    .FontMobileNav {
+        width: 60px;
+    }
+
+    .MenuUl {
+        list-style-type: none;
+        padding-inline-start: 20px;
+        line-height: 40px;
     }
 }
