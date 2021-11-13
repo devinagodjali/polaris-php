@@ -59,6 +59,7 @@ img.Img {
 
 .TabContent {
     display: none;
+    position: relative;
 
     width: 100%;
     box-sizing: border-box;
@@ -90,12 +91,24 @@ img.Img {
     background-color: #aeaeae;
 }
 
+.Width-30 {
+    width: 30%;
+}
+
+.Width-40 {
+    width: 40%;
+}
+
 .Width-50 {
     width: 50%;
 }
 
 .width-60 {
     width: 60%;
+}
+
+.Width-100 {
+    width: 100%;
 }
 
 .ContainerShow {
@@ -160,11 +173,15 @@ img.Img {
     .TabTextMobile {
         padding: 10px;
         font-size: 10px;
-        line-height: 1.5;
+        line-height: 1.8;
         border-bottom: 1px solid #aeaeae;
     }
 
     .Br > br {
+        display: none;
+    }
+
+    .HideMobile {
         display: none;
     }
 }

@@ -1,4 +1,4 @@
-<section class="Flex JustifyContent-center MarginTop-2xlarge">
+<section class="Flex JustifyContent-center MarginTop-2xlarge MarginTopMobile-large">
     <div class="HomeCategory-content Padding Flex Flex-column JustifyContent-center BorderBox">
            <div class="Montserrat-light Font-18 TextAlign-center MarginTop MarginBottom"> CATEGORY </div>
            <div class="Montserrat-bold  Font-24 TextAlign-center"> Ideal For You </div>

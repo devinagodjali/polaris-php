@@ -9,7 +9,7 @@
 
         @if($burgerBar === true)
             <div class="NabMobile-open Padding">
-                <div class="Close NavMobile" wire:click="onClickBurgerBar"> x </div> 
+                <div class="Close NavMobile Montserrat-bold" wire:click="onClickBurgerBar"> x </div> 
                 <ul class="TextAlign-center MenuUl">
                     <li>
                         <a class="Padding MarginRight FontMobileNav NavBars {{ ( $menu === '' )? 'Active' : '' }}" href="/"> Home </a>  
@@ -21,7 +21,7 @@
                         <a class="Padding MarginRight FontMobileNav NavBars {{ ( $menu === 'Service' )? 'Active' : '' }}" href="/service"> Service </a>
                     </li>
                     <li>
-                        {{-- <a class="Padding MarginRight FontMobileNav NavBars {{ ( $menu === 'Contact' )? 'Active' : '' }}" href="/contact"> Contact </a> --}}
+                        <a class="Padding MarginRight FontMobileNav NavBars {{ ( $menu === 'Contact' )? 'Active' : '' }}" href="/contact"> Contact </a>
                     </li>
                     <li>
                         <a class="Padding MarginRight FontMobileNav NavBars {{ ( $menu === 'Product' )? 'Active' : '' }}" href="/product"> Product </a>
@@ -34,7 +34,7 @@
     <a href="/"><img class="Logo" src="assets/png/logo.png" alt="Polaris Logo"></a>
     <a class="Desktop Padding MarginRight FontDefault NavBars {{ ( $menu === 'About' )? 'Active' : '' }}" href="/about"> About </a>        
     <a class="Desktop Padding MarginRight FontDefault NavBars {{ ( $menu === 'Service' )? 'Active' : '' }}" href="/service"> Service </a>
-    {{-- <a class="Padding MarginRight FontDefault NavBars {{ ( $menu === 'Contact' )? 'Active' : '' }}" href="/contact"> Contact </a> --}}
+    <a class="Padding MarginRight FontDefault NavBars {{ ( $menu === 'Contact' )? 'Active' : '' }}" href="/contact"> Contact </a>
     <a class="Desktop Padding MarginRight FontDefault NavBars {{ ( $menu === 'Product' )? 'Active' : '' }}" href="/product"> Product </a>
 
    

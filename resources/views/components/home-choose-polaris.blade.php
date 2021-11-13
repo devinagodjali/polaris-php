@@ -1,4 +1,4 @@
-<section class="Flex JustifyContent-center MarginTop-2xlarge">
+<section class="Flex JustifyContent-center MarginTop-2xlarge MarginTopMobile-large">
     <section class="HomeChoose Flex Flex-column AlignItems-center BorderBox">
         <div class="Montserrat-bold Font-24 TextAlign-center Padding Margin MobileChoose"> Why Choose Polaris </div>
         <hr class="BorderBottom" />

@@ -8,16 +8,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/container.css">
+        @livewireStyles
     </head>
-    <body>
+    <body class="BgColor-gray">
         @php
             $img = '/assets/png/contact.png';
             $content = "We love to hear from you! For any inquiries or business, we are welcome.";
             $title ='Have Something in Mind?';
         @endphp
 
-        <x-nav-bar :menu="'Contact'"></x-nav-bar>
-        <x-container-with-card 
+        <livewire:nav-bar :menu="'Contact'"></livewire:nav-bar>
+        <x-container-with-card
         :imgSrc="$img" 
         :imgTitle="$title"
         :imgContent="$content">
@@ -26,5 +27,7 @@
         <section class="PageWithNavBar">
             "Contact"
         </section>
+        <x-footer></x-footer>
+        @livewireScripts
     </body>
 </html>

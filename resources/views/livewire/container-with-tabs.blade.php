@@ -12,12 +12,12 @@
          @endforeach 
     </div>
 
-    <div class="TabsContent ContainerShow">
+    <div class="TabsContent ContainerShow Width-100">
         @foreach($content as $i => $contentView)
-            <div class="TabContent Flex JustifyContent-between {{ ($con === $i) ? 'Show': '' }}">
-                <div class="MarginTop Width-50">
+            <div class="TabContent Flex JustifyContent-between {{ ($con === $i) ? 'Show': '' }} Width-40">
+                <div class="MarginTop Width-100">
                     <div class="Font-18 Roboto-bold MarginTop">{!! $contentView['title'] !!}</div>
-                    <div class="Font-14 Roboto MarginTop LineHeight width-60">
+                    <div class="Font-14 Roboto MarginTop LineHeight">
                         {!! $contentView['text'] ?? '' !!}
                     </div>
                 </div>
@@ -28,12 +28,12 @@
 
     @foreach($content as $i => $contentView)
         @if ($contentView['image'] !== '')
-            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }} ContainerShow"> 
-                <img class="TabImages" src="{{ $contentView['image'] }}" alt="About Tab {{ $i }}">
+            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }} HideMobile"> 
+                <img class="TabImages" src="{{ $contentView['image'] }}" alt="About Tab">
             </div>
         @else
             <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }}"
-                style="min-width: 100px; width: 700px; height: 380px;">
+                style="min-width: 100px; width: 680px; height: 380px;">
                 {!! $contentView['map'] !!}
             </div>
         @endif

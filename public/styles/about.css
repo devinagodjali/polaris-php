@@ -25,4 +25,8 @@
     .MapImage {
         transform: scale(1);
     }
+
+    .MarginMobile {
+        margin-top: 5px;
+    }
 }

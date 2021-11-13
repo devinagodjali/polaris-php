@@ -42,7 +42,7 @@
             :imgTitle="$cardTitle"
             :imgContent="$cardContent">
         </x-container-with-card>
-        <div class="Flex JustifyContent-center AlignItems-center MarginTop-2xlarge">
+        <div class="Flex JustifyContent-center AlignItems-center MarginTop-2xlarge MarginTopMobile">
             <livewire:container-with-tabs :containerTitle="$title" :tabsTitle="$tabsTitle" :content="$content" :menu="'service'">
             </livewire:container-with-tabs>
         </div>

@@ -96,6 +96,14 @@ body {
     .MarginBottom {
         margin-bottom: 10px;
     }
+
+    .MarginTopMobile {
+        margin-top: 5px;
+    }
+
+    .MarginTopMobile-large {
+        margin-top: 10px;
+    }
 }
 
 /* Padding */
