@@ -23,6 +23,10 @@
     justify-content: space-around;
 }
 
+.JustifyContent-end {
+    justify-content: end;
+}
+
 /* Align */
 .AlignItems-center {
     align-items: center;

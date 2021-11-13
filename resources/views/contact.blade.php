@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact Page</title>
+        <title>Polaris | Contact</title>
 
+        <link rel="icon" type="image/png" href="assets/png/favicon.png">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/container.css">
@@ -23,10 +24,9 @@
         :imgTitle="$title"
         :imgContent="$content">
         </x-container-with-card>
-
-        <section class="PageWithNavBar">
-            "Contact"
-        </section>
+        <div class="Flex JustifyContent-center MarginTop-xlarge">
+          <livewire:contact-form></livewire:contact-form>
+        </div>
         <x-footer></x-footer>
         @livewireScripts
     </body>
