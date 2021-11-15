@@ -4,7 +4,14 @@
         Use this form to contact us for sales requests, career information, investor relations, corporate information, or general questions. For warranty information, or to purchase replacement parts/keys, please contact a local authorized dealer.
     </p>
 
-        <form onSubmit={this.handleSubmit}>
+        @if ($successMessage)
+          <div class="alert alert-success">
+            {{$successMessage ?? ''}}
+          </div>
+        @endif
+
+        <form wire:submit.prevent="submitForm" action="/contact" method="POST">
+          @csrf
             <div class="Roboto Font-14 MarginTop-xlarge">
               I AM CONTACT YOU ABOUT
             </div>
@@ -12,6 +19,7 @@
             <input
               type="text"
               name="about"
+              wire:model="about"
             />
           
           <div class="Flex Flex-wrap">
@@ -20,6 +28,7 @@
               <input
                 type="text"
                 name="firstName"
+                wire:model="firstName"
               />
             </label>
 
@@ -28,6 +37,7 @@
               <input
                 type="text"
                 name="lastName"
+                wire:model="lastName"
               />
             </label>
           </div>
@@ -39,7 +49,9 @@
               <input
                 type="email"
                 name="email"
+                wire:model="email"
               />
+              @error('email')<div style="color: red; font-family: Roboto, 'sans-serif; margin-right: 50px;"> Email Required </div>@enderror
             </label>
 
             <label>
@@ -47,14 +59,18 @@
               <input
                 type="tel"
                 name="phoneNumber"
+                wire:model="phone"
               />
+              @error('phone')<div style="color: red; font-family: Roboto, 'sans-serif;"> Phone Number Required </div>@enderror
             </label>
           </div>
+          
           <label>
             <div class="Roboto Font-14 MarginTop-large"> COMPANY</div>
             <input
               type="tel"
               name="company"
+              wire:model="company"
             />
           </label>
           <div class="Oblique MarginTop"> * Required Fields</div>
