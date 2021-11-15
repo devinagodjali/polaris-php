@@ -5,9 +5,7 @@
 
 .HomeChoose-image {
     width: 27vw;
-    height: 40vh;
-
-    background-color: tomato;
+    height: auto;
 }
 
 .Width {
@@ -68,9 +66,7 @@ img.Choose {
 
     .HomeChoose-image {
         width: 31vw;
-        height: 15vh;
-
-        background-color: tomato;
+        height: auto;
     }
 
     .FontChoose {

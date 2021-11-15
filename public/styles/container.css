@@ -35,6 +35,7 @@ img.Img {
     position: relative;
     width: 70vw;
     height: auto;
+    max-height: 600px;
 
     padding: 50px;
 
@@ -64,7 +65,7 @@ img.Img {
     width: 100%;
     box-sizing: border-box;
 
-    height: 400px;
+    height: 350px;
 }
 
 .TabImagesContainer {
@@ -76,6 +77,11 @@ img.Img {
 .TabImages {
     width: 100%;
     height: auto;
+}
+
+.GoShow {
+    display: flex;
+    justify-content: end;
 }
 
 .Hide {

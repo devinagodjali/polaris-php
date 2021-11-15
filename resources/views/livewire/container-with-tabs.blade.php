@@ -32,8 +32,8 @@
                 <img class="TabImages" src="{{ $contentView['image'] }}" alt="About Tab">
             </div>
         @else
-            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }}"
-                style="min-width: 100px; width: 680px; height: 380px;">
+            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'GoShow': 'Hide' }}"
+                style="width: 70%; height: 380px;">
                 {!! $contentView['map'] !!}
             </div>
         @endif

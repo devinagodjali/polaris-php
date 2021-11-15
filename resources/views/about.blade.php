@@ -23,7 +23,7 @@
                     "Polaris Furniture is a Furniture Manufacturer  Company who already have more than 20 years experiences.
                     We continuously innovate in order to  improve our products and customer satisfaction. Besides, we continuously maintain the 
                     trust of our business partners as well. Starting from the household sector, office, restaurants, institutions and other sectors.",
-                    "image" => "/assets/png/about1.png",
+                    "image" => "/assets/png/about1.jpg",
                 ], 
                 ["title" => "VISION & MISSION",
                     "text" =>

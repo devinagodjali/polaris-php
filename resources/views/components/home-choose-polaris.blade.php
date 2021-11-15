@@ -4,15 +4,15 @@
         <hr class="BorderBottom" />
 
 
-        <section class="Width Flex JustifyContent-between MarginTop-2xlarge">
+        <section class="Width Flex JustifyContent-around MarginTop-2xlarge">
             <div class="HomeChoose-image">
-                <img class="Choose" src="/assets/png/chair-placeholder.png" alt="Chair Placeholder">
+                <img class="Choose" src="/assets/png/Ergonomic.png" alt="Chair Placeholder">
             </div>
             <div class="HomeChoose-image">
-                <img class="Choose" src="/assets/png/chair-placeholder.png" alt="Chair Placeholder">
+                <img class="Choose" src="/assets/png/comfort.png" alt="Chair Placeholder">
             </div>
             <div class="HomeChoose-image">
-                <img class="Choose" src="/assets/png/chair-placeholder.png" alt="Chair Placeholder">
+                <img class="Choose" src="/assets/png/LongLasting.png" alt="Chair Placeholder">
             </div>
         </section>
 
