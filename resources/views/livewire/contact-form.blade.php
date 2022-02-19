@@ -4,9 +4,9 @@
         Use this form to contact us for sales requests, career information, investor relations, corporate information, or general questions. For warranty information, or to purchase replacement parts/keys, please contact a local authorized dealer.
     </p>
 
-        @if ($successMessage)
-          <div class="alert alert-success">
-            {{$successMessage ?? ''}}
+        @if ($isSuccess)
+          <div class="alert alert-success" style="color:  #4BB543;">
+            Email Send Successfuly
           </div>
         @endif
 
@@ -77,13 +77,16 @@
           <div
             class="MarginTop Flex JustifyContent-end Ta"
           >
-            <button
-              class="JustifyContent-end ButtonForm"
-              type="submit"
-              value="Submit"
-            >
-              SUBMIT
-            </button>
+            @if ($loading === false)
+              <button
+                class="JustifyContent-end ButtonForm"
+                type="submit"
+                value="Submit"
+              >
+                SUBMIT
+              </button>
+            @endif
           </div>
+          @method('PUT')
         </form>
 </div>

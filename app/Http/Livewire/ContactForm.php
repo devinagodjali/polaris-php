@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Mail\ContactFormMailable;
+use Illuminate\Mail\Mailable;
 use Illuminate\Support\Facades\Mail;
 use Livewire\Component;
 
@@ -15,7 +16,8 @@ class ContactForm extends Component
     public $phone;
     public $company;
 
-    public $successMessage;
+    public $loading;
+    public $isSuccess;
 
     protected $rules = [
         'about' => '',
@@ -26,15 +28,11 @@ class ContactForm extends Component
         'company' => '',
     ];
 
-    // public function mount()
-    // {
-    //     $this->about = '';
-    //     $this->firstName = '';
-    //     $this->lastName = '';
-    //     $this->email = '';
-    //     $this->phone = '';
-    //     $this->company = '';
-    // }
+    public function mount()
+    {
+        $this->loading = false;
+        $this->isSuccess = false;
+    }
 
     public function updated($propertyName)
     {
@@ -43,14 +41,17 @@ class ContactForm extends Component
 
     public function submitForm()
     {
-        $contact = $this->validate();
-        Mail::to('contact@polarisfurniture.id')->send(
+        $this->loading = true;
+        $contact = $this->validate($this->rules);
+
+        Mail::to('info@polarisfurniture.id')->send(
             new ContactFormMailable($contact)
         );
 
-        $this->successMessage = "thank you for your message";
+        $this->isSuccess = true;
 
         $this->resetForm();
+        $this->loading = false;
     }
 
     private function resetForm()

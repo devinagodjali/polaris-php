@@ -35,7 +35,6 @@ img.Img {
     position: relative;
     width: 70vw;
     height: auto;
-    max-height: 600px;
 
     padding: 50px;
 
@@ -65,7 +64,7 @@ img.Img {
     width: 100%;
     box-sizing: border-box;
 
-    height: 350px;
+    height: 400px;
 }
 
 .TabImagesContainer {
@@ -97,6 +96,10 @@ img.Img {
     background-color: #aeaeae;
 }
 
+.Width-20 {
+    width: 20%;
+}
+
 .Width-30 {
     width: 30%;
 }
@@ -109,8 +112,16 @@ img.Img {
     width: 50%;
 }
 
-.width-60 {
+.Width-60 {
     width: 60%;
+}
+
+.Width-70 {
+    width: 65%;
+}
+
+.Width-80 {
+    width: 80%;
 }
 
 .Width-100 {
@@ -125,6 +136,20 @@ img.Img {
     display: none;
 }
 
+.Maps {
+    width: 80%;
+    height: 400px;
+}
+
+@media screen and (min-width: 1630px) {
+    .TabContent {
+        height: 500px;
+    }
+
+    .Maps {
+        height: 500px;
+    }
+}
 @media screen and (max-width: 600px) {
     .Text {
         position: relative;

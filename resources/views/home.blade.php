@@ -17,7 +17,7 @@
         <section class="HomePage">
             <section class="HomeBanner">
                 <div>
-                    <img class="HomeBanner-placeholder" src="assets/png/homepage.png" alt="Home Banner PlaceHolder">
+                    <img class="HomeBanner-placeholder" src="assets/png/homepage.jpg" alt="Home Banner PlaceHolder">
                 </div>
                 <div class="HomeBanner-text">
                     <div class="HomeBanner-text--title">Ergonomis & Kokoh</div>

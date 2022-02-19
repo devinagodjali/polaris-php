@@ -14,26 +14,24 @@
 
     <div class="TabsContent ContainerShow Width-100">
         @foreach($content as $i => $contentView)
-            <div class="TabContent Flex JustifyContent-between {{ ($con === $i) ? 'Show': '' }} Width-40">
+            <div class="TabContent Flex JustifyContent-between {{ ($con === $i) ? 'Show': '' }} Width-30">
                 <div class="MarginTop Width-100">
                     <div class="Font-18 Roboto-bold MarginTop">{!! $contentView['title'] !!}</div>
                     <div class="Font-14 Roboto MarginTop LineHeight">
                         {!! $contentView['text'] ?? '' !!}
                     </div>
                 </div>
-                
             </div>
         @endforeach
     </div>
 
     @foreach($content as $i => $contentView)
         @if ($contentView['image'] !== '')
-            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }} HideMobile"> 
+            <div class="TabImagesContainer Width-70 Flex AlignItems-center {{ ($con === $i) ? 'Show': 'Hide' }} HideMobile"> 
                 <img class="TabImages" src="{{ $contentView['image'] }}" alt="About Tab">
             </div>
         @else
-            <div class="TabImagesContainer Width-50 Flex AlignItems-center {{ ($con === $i) ? 'GoShow': 'Hide' }}"
-                style="width: 70%; height: 380px;">
+            <div class="TabImagesContainer Width-70 Flex AlignItems-center {{ ($con === $i) ? 'GoShow': 'Hide' }} Maps">
                 {!! $contentView['map'] !!}
             </div>
         @endif
